@@ -1,0 +1,110 @@
+body{
+    background-image: linear-gradient(to right,rgb(25, 111, 126) , rgb(233, 221, 221));
+}
+
+#Header{
+    display: block;
+    border: 1px solid black;
+    text-align: center;
+    padding:50px;
+    margin:30px;
+    background-image: linear-gradient(to right,rgb(115, 115, 235) , rgb(184, 169, 169));
+    border-radius:10px 0 10px 0;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif
+}
+
+#Header>h1{
+    text-decoration-line: underline;
+}
+
+
+#Header > img {
+    width: 250px;
+    height:250px;
+    border-radius:50%;
+    border:2px solid black
+}
+
+#Header>nav{
+    font-size: x-large;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    
+}
+
+#Header>nav>a{
+    color:rgb(172, 10, 10)
+}
+
+#Aboutme{
+    display: block;
+    border: 1px solid black;
+    text-align: center;
+    padding:50px;
+    margin:30px;
+    background-image: linear-gradient(to right,rgb(115, 115, 235) , rgb(184, 169, 169));
+    border-radius:10px 0 10px 0;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif
+}
+
+#Experiences{
+    display: block;
+    border: 1px solid black;
+    text-align: center;
+    padding:50px;
+    margin:30px;
+    background-image: linear-gradient(to right,rgb(115, 115, 235) , rgb(184, 169, 169));
+    border-radius:10px 0 10px 0;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif
+}
+
+#Education{
+    display: block;
+    border: 1px solid black;
+    text-align: center;
+    padding:50px;
+    margin:30px;
+    background-image: linear-gradient(to right,rgb(115, 115, 235) , rgb(184, 169, 169));
+    border-radius:10px 0 10px 0;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif
+}
+
+#Skills{
+    display: block;
+    border: 1px solid black;
+    text-align: center;
+    padding:50px;
+    margin:30px;
+    background-image: linear-gradient(to right,rgb(115, 115, 235) , rgb(184, 169, 169));
+    border-radius:10px 0 10px 0;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif
+}
+
+#Interests{
+    display: block;
+    border: 1px solid black;
+    text-align: center;
+    padding:50px;
+    margin:30px;
+    background-image: linear-gradient(to right,rgb(115, 115, 235) , rgb(184, 169, 169));
+    border-radius:10px 0 10px 0;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif
+}
+
+#footer{
+    display: block;
+    border: 1px solid black;
+    text-align: center;
+    padding:50px;
+    margin:30px;
+    background-image: linear-gradient(to right,rgb(115, 115, 235) , rgb(184, 169, 169));
+    border-radius:10px 0 10px 0;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif
+}
+
+#footer>button{
+    border-radius: 10%;
+    border:none;
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: 20px;
+    background-color: rgb(94, 236, 113)
+}
