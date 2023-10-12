@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="stil.css">
+</head>
+<body>
+    <form>
+        <fieldset id="obrazac">
+            <legend><strong>Survey:</strong></legend>
+        <h2>First Name:</h2>
+        <input type="text" placeholder="firstname" autofocus>
+        <h2>Last Name:</h2>
+        <input type="text" placeholder="lastname" autofocus>
+        <h2>Place of birth:</h2>
+        <input type="text" placeholder="place_of_birth" autofocus>
+        <h2>Age:</h2>
+        <input type="datetime-local" min="1994-3-19" max="2023-12-31">
+        <h2>Why did you start learning coding?</h2>
+        <textarea name="textbox" id="textbox" cols="30" rows="10" placeholder="Write your journey"></textarea>
+        <h2>How much do you like coding:</h2>
+        <input type="checkbox">1
+        <input type="checkbox">2
+        <input type="checkbox">3
+        <input type="checkbox">4
+        <input type="checkbox">5
+        <h2>Chose your favorite web language</h2>
+        <input type="radio" id="html" name="fav-lang" value="html">
+        <label for="html">HTML</label>
+        <input type="radio" id="css" name="fav-lang" value="css">
+        <label for="html">CSS</label>
+        <input type="radio" id="javascript" name="fav-lang" value="javascript">
+        <label for="html">JAVASCRIPT</label>
+        <br><br>
+        <p>or maybe:</p>
+        <select name="languages" id="web lang">
+            <option value="REACT">REACT</option>
+            <option value="PYTHON">PYTHON</option>
+            <option value="JAVA">JAVA</option>
+        </select>
+        <br><br>
+        <h2>How are you satisfied with this survey?</h2>
+        <input type="range" value="100">100</input><br><br>
+        <label for="email"><strong>Share your email for newsletter</strong></label>
+        <input type="email" id="email" name="e-mail" autocomplete="on"><br><br>
+        <label for="pass"><strong>Enter a password:</strong></label>
+        <input type="password" id="pass" name="pass"><br><br>
+        <label for="myfile"><strong>Select a file:</strong></label>
+        <input type="file" id="myfile" name="myfile"><br><br>
+        <label for="tel"><strong>Phone number:</strong></label>
+        <input type="tel" id="tel" name="tel" placeholder="+385991234567" pattern="+385-98-521-23-11" required >
+        <small>Format:+385-99-245-67-89</small><br><br>
+        <label for="homepage"><strong>Add your homepage:</strong></label>
+        <input type="url" id="homepage" name="homepage"><br><br>
+        <input type="submit" value="submit">
+    </fieldset>
+    </form>
+    
+</body>
+</html>

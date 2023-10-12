@@ -1,0 +1,10 @@
+
+#obrazac{
+   text-align: center;
+   background-image: linear-gradient(to bottom, DodgerBlue, Tomato);
+   }
+
+input,textarea,select{
+    background-color: BlanchedAlmond;
+}
+
